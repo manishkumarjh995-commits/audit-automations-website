@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Audit Automations — Automating the Audit Workflow for CPA firms and assurance teams.">
+  <meta name="description" content="Audit Automations helps CPA firms, audit partners, and assurance teams automate lead sheets, financial statement preparation, and engagement memory.">
   <title>Audit Automations | Automating the Audit Workflow</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650;8..60,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,8 +19,9 @@
       <nav class="nav" aria-label="Primary">
         <a href="#modules">Modules</a>
         <a href="#why">Why Us</a>
+        <a href="#story">Story</a>
         <a href="#roadmap">Roadmap</a>
-        <a href="#demo" class="nav-cta">Request Demo</a>
+        <a class="nav-cta" href="mailto:auditautomations@gmail.com?subject=Audit%20Automations%20Demo%20Request">Request Demo</a>
       </nav>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
         <span></span><span></span>
@@ -29,65 +30,85 @@
     <nav id="mobile-nav" class="mobile-nav" hidden>
       <a href="#modules">Modules</a>
       <a href="#why">Why Us</a>
+      <a href="#story">Story</a>
       <a href="#roadmap">Roadmap</a>
-      <a href="#demo">Request Demo</a>
+      <a href="mailto:auditautomations@gmail.com?subject=Audit%20Automations%20Demo%20Request">Request Demo</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-atmosphere" aria-hidden="true"></div>
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-ledger"></div>
+        <div class="hero-glow"></div>
+      </div>
       <div class="container hero-content">
-        <h1 id="hero-heading" class="hero-title reveal">Audit Automations</h1>
-        <p class="hero-tagline reveal reveal-delay-1">Automating the Audit Workflow</p>
-        <p class="hero-support reveal reveal-delay-2">
-          Reduce repetitive preparation work, retain engagement intelligence,
-          and deliver consistent quality across every audit engagement.
-        </p>
-        <div class="hero-actions reveal reveal-delay-3">
-          <a href="#demo" class="btn btn-primary">Request a Demo</a>
-          <a href="#modules" class="btn btn-secondary">Explore Modules</a>
+        <div class="hero-logo-wrap reveal">
+          <img src="logo.png" alt="Audit Automations" class="hero-logo">
         </div>
+        <p class="hero-eyebrow reveal reveal-delay-1">Built for CPA Firms &amp; Assurance Teams</p>
+        <h1 id="hero-heading" class="hero-title reveal reveal-delay-2">Audit Automations</h1>
+        <p class="hero-tagline reveal reveal-delay-3">Automating the Audit Workflow</p>
+        <p class="hero-support reveal reveal-delay-4">
+          Enterprise-grade automation for audit preparation—so partners, managers,
+          and engagement teams deliver consistent quality with less repetitive work.
+        </p>
+        <div class="hero-actions reveal reveal-delay-5">
+          <a class="btn btn-primary btn-lg" href="mailto:auditautomations@gmail.com?subject=Audit%20Automations%20Demo%20Request">Request a Demo</a>
+          <a class="btn btn-secondary btn-lg" href="#modules">Explore Modules</a>
+        </div>
+        <ul class="hero-audience reveal reveal-delay-5" aria-label="Target audience">
+          <li>CPA Firms</li>
+          <li>Audit Firms</li>
+          <li>Assurance Teams</li>
+          <li>Audit Partners</li>
+          <li>Audit Managers</li>
+        </ul>
       </div>
     </section>
 
     <section id="modules" class="section modules" aria-labelledby="modules-heading">
       <div class="container">
-        <p class="section-label">Product</p>
-        <h2 id="modules-heading">Current Modules</h2>
-        <p class="section-lead">
-          Purpose-built tools that accelerate the core of audit preparation and documentation.
-        </p>
-        <div class="module-list">
-          <article class="module-item">
-            <span class="module-index">01</span>
-            <div class="module-body">
+        <div class="section-intro">
+          <p class="section-label">Product Suite</p>
+          <h2 id="modules-heading">Current Modules</h2>
+          <p class="section-lead">
+            Purpose-built capabilities that streamline the most repetitive stages of audit preparation and documentation.
+          </p>
+        </div>
+
+        <div class="card-grid modules-grid">
+          <article class="card module-card">
+            <div class="card-top">
+              <span class="card-badge">Module 01</span>
               <h3>Lead Sheet Automation</h3>
-              <p>
-                Generate structured lead sheets from trial balance data with consistent
-                mapping, formatting, and engagement-ready documentation.
+              <p class="card-desc">
+                Transform trial balance data into structured, review-ready lead sheets with reusable client intelligence.
               </p>
             </div>
+            <ul class="feature-list">
+              <li>Trial Balance Upload</li>
+              <li>Account Mapping</li>
+              <li>Client Memory</li>
+              <li>Variance Analysis</li>
+              <li>Lead Sheet Generation</li>
+            </ul>
           </article>
-          <article class="module-item">
-            <span class="module-index">02</span>
-            <div class="module-body">
+
+          <article class="card module-card">
+            <div class="card-top">
+              <span class="card-badge">Module 02</span>
               <h3>Financial Statement Preparation</h3>
-              <p>
-                Produce draft financial statements with controlled presentation,
-                reducing manual rework and review cycle time.
+              <p class="card-desc">
+                Accelerate draft financial statement production with shared engagement context and integrated workflows.
               </p>
             </div>
-          </article>
-          <article class="module-item">
-            <span class="module-index">03</span>
-            <div class="module-body">
-              <h3>Shared Engagement Memory</h3>
-              <p>
-                Capture client-specific knowledge across engagements so teams
-                start informed and stay aligned year over year.
-              </p>
-            </div>
+            <ul class="feature-list">
+              <li>Financial Statement Drafting</li>
+              <li>Shared Engagement Context</li>
+              <li>Workflow Integration</li>
+            </ul>
           </article>
         </div>
       </div>
@@ -95,93 +116,150 @@
 
     <section id="why" class="section why" aria-labelledby="why-heading">
       <div class="container">
-        <p class="section-label">Value</p>
-        <h2 id="why-heading">Why Audit Automations</h2>
-        <p class="section-lead">
-          Designed for CPA firms that need reliability, consistency, and institutional memory—not generic AI tools.
-        </p>
-        <ul class="why-list">
-          <li>
-            <strong>Built for Audit &amp; Assurance Teams</strong>
-            <span>Workflows that mirror how engagement teams actually prepare and review.</span>
-          </li>
-          <li>
-            <strong>Client Memory Engine</strong>
-            <span>Retain mapping decisions, notes, and patterns that usually live in individual binders.</span>
-          </li>
-          <li>
-            <strong>Lead Sheet Generation</strong>
-            <span>Standardize the first mile of documentation so seniors review sooner.</span>
-          </li>
-          <li>
-            <strong>Trial Balance Mapping</strong>
-            <span>Map accounts with reusable logic that improves with each engagement.</span>
-          </li>
-          <li>
-            <strong>Workflow Consistency</strong>
-            <span>Deliver the same quality bar across partners, offices, and busy seasons.</span>
-          </li>
-        </ul>
+        <div class="section-intro">
+          <p class="section-label">Why Firms Choose Us</p>
+          <h2 id="why-heading">Why Audit Automations</h2>
+          <p class="section-lead">
+            Designed for the realities of US audit engagements—where consistency, memory, and scalability matter as much as speed.
+          </p>
+        </div>
+
+        <div class="card-grid why-grid">
+          <article class="card why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a1 1 0 0 1 1-1h10l5 5v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Z"/><path d="M14 4v5h5M8 13h8M8 17h5"/></svg>
+            </div>
+            <h3>Engagement Memory</h3>
+            <p>Retain mapping decisions, client patterns, and institutional knowledge across engagements and busy seasons.</p>
+          </article>
+
+          <article class="card why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="18" cy="18" r="2.5"/></svg>
+            </div>
+            <h3>Workflow Consistency</h3>
+            <p>Standardize preparation quality across partners, managers, and teams—regardless of office or staffing mix.</p>
+          </article>
+
+          <article class="card why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 4.5 6.5v5c0 4.5 3.2 7.8 7.5 9 4.3-1.2 7.5-4.5 7.5-9v-5L12 3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3>Auditor Designed</h3>
+            <p>Shaped by real engagement experience—not generic productivity software retrofitted for audit work.</p>
+          </article>
+
+          <article class="card why-card">
+            <div class="why-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 17 9 11l4 4 8-8"/><path d="M14 7h7v7"/></svg>
+            </div>
+            <h3>Scalable Platform</h3>
+            <p>Grow from lead sheet automation into a broader engagement platform as your firm’s needs expand.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="section story" aria-labelledby="story-heading">
+      <div class="container story-layout">
+        <div class="story-panel">
+          <p class="section-label light">Founder Story</p>
+          <h2 id="story-heading">Built by Auditors, for Audit Teams</h2>
+          <blockquote class="story-quote">
+            Built from practical experience working on US audit engagements, Audit Automations was designed to reduce repetitive audit preparation activities while improving engagement consistency.
+          </blockquote>
+          <p class="story-aside">
+            Every module reflects how CPA firms and assurance teams actually prepare, review, and carry forward engagement work.
+          </p>
+        </div>
       </div>
     </section>
 
     <section id="roadmap" class="section roadmap" aria-labelledby="roadmap-heading">
       <div class="container">
-        <p class="section-label">Direction</p>
-        <h2 id="roadmap-heading">Future Roadmap</h2>
-        <p class="section-lead">
-          Expanding from preparation automation into deeper engagement intelligence.
-        </p>
-        <ol class="roadmap-list">
-          <li>
-            <span class="roadmap-phase">Near Term</span>
-            <h3>Working Paper Assist</h3>
-            <p>Guided drafting and checklist support for recurring audit areas.</p>
-          </li>
-          <li>
-            <span class="roadmap-phase">Next</span>
-            <h3>Risk Assessment Support</h3>
-            <p>Structured prompts that help teams document risks with greater consistency.</p>
-          </li>
-          <li>
-            <span class="roadmap-phase">Later</span>
-            <h3>Platform Integrations</h3>
-            <p>Connect trial balance sources and engagement software already in your stack.</p>
-          </li>
-          <li>
-            <span class="roadmap-phase">Vision</span>
-            <h3>Continuous Engagement Insights</h3>
-            <p>Surface carryforward intelligence before fieldwork begins.</p>
-          </li>
-        </ol>
+        <div class="section-intro">
+          <p class="section-label">Product Roadmap</p>
+          <h2 id="roadmap-heading">Where We’re Headed</h2>
+          <p class="section-lead">
+            A clear path from today’s automation modules to a broader audit preparation platform.
+          </p>
+        </div>
+
+        <div class="roadmap-columns">
+          <article class="card roadmap-card">
+            <h3><span class="status-dot status-live" aria-hidden="true"></span> Current</h3>
+            <ul>
+              <li><span class="status-icon" aria-hidden="true">✅</span> Lead Sheet Automation</li>
+              <li><span class="status-icon" aria-hidden="true">✅</span> Shared Engagement Memory</li>
+            </ul>
+          </article>
+
+          <article class="card roadmap-card">
+            <h3><span class="status-dot status-dev" aria-hidden="true"></span> Under Development</h3>
+            <ul>
+              <li><span class="status-icon" aria-hidden="true">🚧</span> Financial Statement Preparation</li>
+            </ul>
+          </article>
+
+          <article class="card roadmap-card">
+            <h3><span class="status-dot status-planned" aria-hidden="true"></span> Planned</h3>
+            <ul>
+              <li><span class="status-icon" aria-hidden="true">📅</span> Journal Analytics</li>
+              <li><span class="status-icon" aria-hidden="true">📅</span> Workpapers</li>
+              <li><span class="status-icon" aria-hidden="true">📅</span> Review Notes</li>
+              <li><span class="status-icon" aria-hidden="true">📅</span> Audit Drafting</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="demo" class="section demo" aria-labelledby="demo-heading">
-      <div class="container demo-inner">
-        <p class="section-label light">Get Started</p>
-        <h2 id="demo-heading">Request a Demo</h2>
-        <p class="section-lead light">
-          See how Audit Automations fits your firm’s engagement workflow.
-          We will walk through modules with your team’s process in mind.
-        </p>
-        <a class="demo-email" href="mailto:auditautomations@gmail.com">
-          auditautomations@gmail.com
-        </a>
-        <p class="demo-note">Prefer email? Reach out and we will schedule a walkthrough.</p>
+      <div class="container">
+        <div class="demo-panel">
+          <p class="section-label light">Next Step</p>
+          <h2 id="demo-heading">Request a Demo</h2>
+          <p class="demo-copy">
+            See how Audit Automations fits your firm’s engagement workflow.
+            We’ll walk through lead sheet automation, engagement memory, and the roadmap with your team.
+          </p>
+          <a class="btn btn-primary btn-lg demo-btn" href="mailto:auditautomations@gmail.com?subject=Audit%20Automations%20Demo%20Request">
+            Request Demo
+          </a>
+          <p class="demo-email-line">
+            Or email
+            <a href="mailto:auditautomations@gmail.com?subject=Audit%20Automations%20Demo%20Request">auditautomations@gmail.com</a>
+          </p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="footer-brand">Audit Automations</p>
-      <p>&copy; <span id="year"></span> Audit Automations. All rights reserved.</p>
+      <div class="footer-brand-block">
+        <p class="footer-name">Audit Automations</p>
+        <p class="footer-tagline">Automating the Audit Workflow</p>
+      </div>
+      <a class="footer-email" href="mailto:auditautomations@gmail.com?subject=Audit%20Automations%20Demo%20Request">auditautomations@gmail.com</a>
     </div>
   </footer>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.card, .demo-panel').forEach((el, i) => {
+      el.style.setProperty('--reveal-delay', `${Math.min(i * 0.06, 0.36)}s`);
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.card, .demo-panel, .story-panel').forEach((el) => observer.observe(el));
 
     const toggle = document.querySelector('.menu-toggle');
     const mobileNav = document.getElementById('mobile-nav');
