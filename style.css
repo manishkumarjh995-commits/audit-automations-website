@@ -25,7 +25,7 @@
   --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
   --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
   --container: 1140px;
-  --header-h: 76px;
+  --header-h: 92px;
 }
 
 *,
@@ -90,7 +90,7 @@ ul {
 }
 
 .nav-logo {
-  height: 44px;
+  height: 72px;
   width: auto;
 }
 
@@ -247,14 +247,14 @@ ul {
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.75rem;
-  padding: 1rem 1.5rem;
-  background: rgba(255, 255, 255, 0.98);
-  border-radius: 14px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+  padding: 0;
+  background: transparent;
+  border-radius: 2px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
 }
 
 .hero-logo {
-  height: clamp(64px, 10vw, 88px);
+  height: clamp(156px, 24vw, 220px);
   width: auto;
 }
 
@@ -822,11 +822,11 @@ ul {
   }
 
   .hero-logo {
-    height: 56px;
+    height: 140px;
   }
 
   .hero-logo-wrap {
-    padding: 0.8rem 1.1rem;
+    padding: 0;
   }
 
   .section {
