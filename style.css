@@ -291,6 +291,13 @@ ul {
   font-size: 1.1rem;
 }
 
+.hero-note {
+  margin: 0 auto;
+  max-width: 32rem;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.92rem;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -470,6 +477,38 @@ ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.steps-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.step-card {
+  padding: 1.75rem 1.6rem;
+}
+
+.step-num {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.55rem;
+}
+
+.step-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 0.55rem;
+  color: var(--navy-900);
+}
+
+.step-card p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.98rem;
+}
+
 .module-card {
   display: flex;
   flex-direction: column;
@@ -542,6 +581,10 @@ ul {
 
 .why-grid {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.why-grid-three {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .why-card {
@@ -807,7 +850,9 @@ ul {
     display: flex;
   }
 
-  .modules-grid {
+  .modules-grid,
+  .steps-grid,
+  .why-grid-three {
     grid-template-columns: 1fr;
   }
 }
